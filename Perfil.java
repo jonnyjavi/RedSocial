@@ -29,10 +29,10 @@ public class Perfil {
         System.out.println(amigo + " ha sido agregado a la lista de amigos de " + nombre);
     }
     
-    // Método para eliminar un amigo 
+    // Método para eliminar un amigo
     public void eliminarAmigo(String amigo) {
-    		listaAmigos.remove(amigo);  
-        System.out.println("Amigo eliminado: " + amigo);
+    		listaAmigos.remove(amigo);
+        System.out.println(amigo + " ha sido eliminado correctamente.");
     }
     
     // Método para enviar un mensaje a un amigo
